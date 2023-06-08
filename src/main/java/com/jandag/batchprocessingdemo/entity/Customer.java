@@ -1,6 +1,7 @@
 package com.jandag.batchprocessingdemo.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
@@ -14,6 +15,7 @@ import javax.persistence.Table;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 public class Customer {
 
     @Id
